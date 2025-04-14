@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estude Mais - Cursos</title>
+  <link rel="icon" type="image/png" href="/Design_sem_nome-removebg-preview.png" style="width: 5000px; height: auto;">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+    }header {
+  background-color: #1e3a8a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+nav a.ativo {
+  border-bottom: 2px solid #fff;
+}
+
+.titulo-pagina {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom right, #3b82f6, #1e3a8a);
+  color: #fff;
+}
+
+.titulo-pagina h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.titulo-pagina p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.botao {
+  background-color: #fbbf24;
+  color: #111;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #f3f4f6;
+  margin-top: 180px;
+}
+
+.curso {
+  background: #fff;
+  border-radius: 12px;
+  padding: 26px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-top: -80px;
+}
+
+.curso h2 {
+  color: #1e3a8a;
+  font-family: 'Playfair Display', serif;
+}
+
+footer {
+  background-color: #1e3a8a;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Estude Mais</div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="cursos.html" class="ativo">Cursos</a>
+      <a href="materiais.html">Materiais</a>
+      <a href="dicas.html">Dicas</a>
+      <a href="dep-alunos.html">Depoimentos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>  <main>
+    <section class="titulo-pagina">
+      <h1>Nossos Cursos</h1>
+      <p>Conheça os cursos técnicos oferecidos com foco prático e mercado de trabalho.</p>
+    </section>
+    <section class="cursos">
+  <div class="curso">
+    <h2>Desenvolvimento de Sistemas</h2>
+    <p>Aprenda lógica de programação, algoritmos, front-end, back-end e bancos de dados. Ideal para quem quer criar sites, sistemas e aplicativos web.</p>
+    <a href="#" class="botao">Ver conteúdo</a>
+  </div>
+  <div class="curso">
+    <h2>Multimídia</h2>
+    <p>Explore design gráfico, edição de vídeos, animação, fotografia digital e produção audiovisual. Desenvolva sua criatividade e habilidades técnicas.</p>
+    <a href="#" class="botao">Ver conteúdo</a>
+  </div>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 Estude Mais. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
